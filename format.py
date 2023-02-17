@@ -18,17 +18,11 @@ print('สวัสดีสมชาย')
 >>> print('สวัสดี'+friend)
 สวัสดีgg
 >>> money=10
->>> print('สมชายยืมเงิน'+money)
-Traceback (most recent call last):
-  File "<pyshell#11>", line 1, in <module>
-    print('สมชายยืมเงิน'+money)
-TypeError: can only concatenate str (not "int") to str
 >>> print('สมชายยืมเงิน'+str(money))
 สมชายยืมเงิน10
 >>> print('{}ยืมเงิน{}บาท'.format(friend,money))
 ggยืมเงิน10บาท
->>> print(f'{}ยืมเงิน{}บาท'.format(friend,money))
-SyntaxError: f-string: empty expression not allowed
+
 >>> print(f'{friend}ยืมเงิน{money}บาท')
 ggยืมเงิน10บาท
 >>> 
